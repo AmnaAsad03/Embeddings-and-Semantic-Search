@@ -1,0 +1,229 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "What are the common symptoms of asthma?",
+    "expected_document": "MED-001",
+    "relevant_chunk_ids": ["MED-001_chunk_0000"]
+  },
+  {
+    "query_id": "Q002",
+    "query": "What can trigger an asthma attack?",
+    "expected_document": "MED-001",
+    "relevant_chunk_ids": ["MED-001_chunk_0001", "MED-001_chunk_0002"]
+  },
+  {
+    "query_id": "Q003",
+    "query": "When should someone with asthma seek emergency medical care?",
+    "expected_document": "MED-001",
+    "relevant_chunk_ids": ["MED-001_chunk_0008"]
+  },
+
+  {
+    "query_id": "Q004",
+    "query": "What are the symptoms of diabetes?",
+    "expected_document": "MED-002",
+    "relevant_chunk_ids": ["MED-002_chunk_0002"]
+  },
+  {
+    "query_id": "Q005",
+    "query": "What causes type 2 diabetes?",
+    "expected_document": "MED-002",
+    "relevant_chunk_ids": ["MED-002_chunk_0003"]
+  },
+  {
+    "query_id": "Q006",
+    "query": "How can type 2 diabetes be managed?",
+    "expected_document": "MED-002",
+    "relevant_chunk_ids": ["MED-002_chunk_0006"]
+  },
+
+  {
+    "query_id": "Q007",
+    "query": "What are the symptoms of pulmonary hypertension?",
+    "expected_document": "MED-003",
+    "relevant_chunk_ids": ["MED-003_chunk_0001"]
+  },
+  {
+    "query_id": "Q008",
+    "query": "What medical conditions can cause pulmonary hypertension?",
+    "expected_document": "MED-003",
+    "relevant_chunk_ids": ["MED-003_chunk_0002"]
+  },
+  {
+    "query_id": "Q009",
+    "query": "What treatments may be used for pulmonary hypertension?",
+    "expected_document": "MED-003",
+    "relevant_chunk_ids": ["MED-003_chunk_0005"]
+  },
+
+  {
+    "query_id": "Q010",
+    "query": "What is GERD and what causes it?",
+    "expected_document": "MED-004",
+    "relevant_chunk_ids": ["MED-004_chunk_0000"]
+  },
+  {
+    "query_id": "Q011",
+    "query": "What are the common symptoms of GERD?",
+    "expected_document": "MED-004",
+    "relevant_chunk_ids": ["MED-004_chunk_0001"]
+  },
+  {
+    "query_id": "Q012",
+    "query": "What lifestyle changes can help manage GERD?",
+    "expected_document": "MED-004",
+    "relevant_chunk_ids": ["MED-004_chunk_0004"]
+  },
+
+  {
+    "query_id": "Q013",
+    "query": "What are the symptoms of migraine?",
+    "expected_document": "MED-005",
+    "relevant_chunk_ids": ["MED-005_chunk_0000", "MED-005_chunk_0001"]
+  },
+  {
+    "query_id": "Q014",
+    "query": "What can trigger a migraine?",
+    "expected_document": "MED-005",
+    "relevant_chunk_ids": ["MED-005_chunk_0002"]
+  },
+  {
+    "query_id": "Q015",
+    "query": "What self-care strategies can help with migraines?",
+    "expected_document": "MED-005",
+    "relevant_chunk_ids": ["MED-005_chunk_0005"]
+  },
+
+  {
+    "query_id": "Q016",
+    "query": "What are the common symptoms of anemia?",
+    "expected_document": "MED-006",
+    "relevant_chunk_ids": ["MED-006_chunk_0001"]
+  },
+  {
+    "query_id": "Q017",
+    "query": "What is the most common cause of anemia?",
+    "expected_document": "MED-006",
+    "relevant_chunk_ids": ["MED-006_chunk_0000", "MED-006_chunk_0002"]
+  },
+  {
+    "query_id": "Q018",
+    "query": "How is anemia diagnosed?",
+    "expected_document": "MED-006",
+    "relevant_chunk_ids": ["MED-006_chunk_0003"]
+  },
+
+  {
+    "query_id": "Q019",
+    "query": "What are the major risk factors for cardiovascular disease?",
+    "expected_document": "MED-007",
+    "relevant_chunk_ids": ["MED-007_chunk_0000", "MED-007_chunk_0004"]
+  },
+  {
+    "query_id": "Q020",
+    "query": "What are the warning signs of a heart attack?",
+    "expected_document": "MED-007",
+    "relevant_chunk_ids": ["MED-007_chunk_0002"]
+  },
+  {
+    "query_id": "Q021",
+    "query": "What are the warning signs of a stroke?",
+    "expected_document": "MED-007",
+    "relevant_chunk_ids": ["MED-007_chunk_0003"]
+  },
+
+  {
+    "query_id": "Q022",
+    "query": "What are the symptoms of pneumonia?",
+    "expected_document": "MED-008",
+    "relevant_chunk_ids": ["MED-008_chunk_0001"]
+  },
+  {
+    "query_id": "Q023",
+    "query": "What causes pneumonia?",
+    "expected_document": "MED-008",
+    "relevant_chunk_ids": ["MED-008_chunk_0000", "MED-008_chunk_0001"]
+  },
+  {
+    "query_id": "Q024",
+    "query": "How can pneumonia be prevented?",
+    "expected_document": "MED-008",
+    "relevant_chunk_ids": ["MED-008_chunk_0003"]
+  },
+
+  {
+    "query_id": "Q025",
+    "query": "What are the common symptoms of influenza?",
+    "expected_document": "MED-009",
+    "relevant_chunk_ids": ["MED-009_chunk_0000"]
+  },
+  {
+    "query_id": "Q026",
+    "query": "Who is at higher risk of serious complications from influenza?",
+    "expected_document": "MED-009",
+    "relevant_chunk_ids": ["MED-009_chunk_0001"]
+  },
+  {
+    "query_id": "Q027",
+    "query": "What complications can influenza cause?",
+    "expected_document": "MED-009",
+    "relevant_chunk_ids": ["MED-009_chunk_0002"]
+  },
+
+  {
+    "query_id": "Q028",
+    "query": "What are the common symptoms of food poisoning?",
+    "expected_document": "MED-010",
+    "relevant_chunk_ids": ["MED-010_chunk_0000"]
+  },
+  {
+    "query_id": "Q029",
+    "query": "What causes food poisoning?",
+    "expected_document": "MED-010",
+    "relevant_chunk_ids": ["MED-010_chunk_0000"]
+  },
+  {
+    "query_id": "Q030",
+    "query": "How can food poisoning be prevented?",
+    "expected_document": "MED-010",
+    "relevant_chunk_ids": ["MED-010_chunk_0001", "MED-010_chunk_0006"]
+  },
+
+  {
+    "query_id": "Q031",
+    "query": "What are common symptoms of depression?",
+    "expected_document": "MED-011",
+    "relevant_chunk_ids": ["MED-011_chunk_0001"]
+  },
+  {
+    "query_id": "Q032",
+    "query": "What treatments are available for depression?",
+    "expected_document": "MED-011",
+    "relevant_chunk_ids": ["MED-011_chunk_0007"]
+  },
+  {
+    "query_id": "Q033",
+    "query": "When should someone seek immediate help for depression?",
+    "expected_document": "MED-011",
+    "relevant_chunk_ids": ["MED-011_chunk_0011"]
+  },
+
+  {
+    "query_id": "Q034",
+    "query": "What information can an FDA Drug Safety Communication provide?",
+    "expected_document": "MED-012",
+    "relevant_chunk_ids": ["MED-012_chunk_0001", "MED-012_chunk_0002"]
+  },
+  {
+    "query_id": "Q035",
+    "query": "What are medication safety risks such as drug interactions and contraindications?",
+    "expected_document": "MED-012",
+    "relevant_chunk_ids": ["MED-012_chunk_0018", "MED-012_chunk_0019"]
+  },
+  {
+    "query_id": "Q036",
+    "query": "What should patients do if they have concerns about medication safety?",
+    "expected_document": "MED-012",
+    "relevant_chunk_ids": ["MED-012_chunk_0023", "MED-012_chunk_0024"]
+  }
+]

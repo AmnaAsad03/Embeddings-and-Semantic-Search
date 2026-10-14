@@ -1,0 +1,16 @@
+# Medical Knowledge Assistant - RAG Configuration
+
+chunking:
+  strategy: recursive
+  chunk_size: 800
+  chunk_overlap: 120
+
+  strategies:
+    - fixed
+    - recursive
+    - structure
+    - semantic
+
+output:
+  chunks_dir: data/processed/chunks
+  chunks_file: data/processed/chunks/chunks.json
