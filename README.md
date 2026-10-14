@@ -1,6 +1,6 @@
 # Medical Knowledge Assistant — Implementation Report
 
-This repository contains my Week 6 internship work, focused on building a medical information service using Retrieval-Augmented Generation (RAG), hybrid search, evidence-based answers, citations, and safety checks.
+This repository, focused on building a medical information service using Retrieval-Augmented Generation (RAG), hybrid search, evidence-based answers, citations, and safety checks.
 
 ## Project summary
 
